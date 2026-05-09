@@ -13,8 +13,7 @@ three linear layers (784 -> 128 -> 64 -> 10), trained using SGD optimizer and
 CrossEntropyLoss over 10 epochs on 60,000 MNIST training images.
 
 **What was achieved?**
-Achieved over 80% accuracy on the MNIST training set. Applied data 
-augmentation techniques including random affine transformations, rotation, 
+Achieved 91.75% accuracy on the MNIST training set over 10 training epochs. Applied data augmentation techniques including random affine transformations, rotation, 
 translation, and scaling to improve the model's ability to generalize to 
 real handwriting. Normalized inputs using MNIST mean (0.1307) and standard 
 deviation (0.3081) for stable training.
